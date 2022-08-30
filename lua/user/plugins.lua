@@ -47,6 +47,8 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "windwp/nvim-ts-autotag" -- Autotag
   use "numToStr/Comment.nvim" -- Easily comment stuff
+  use 'kyazdani42/nvim-web-devicons' -- NvimTree Icons
+  use 'kyazdani42/nvim-tree.lua' -- NvimTree
 
 
   -- Colorschemes
