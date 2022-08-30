@@ -6,13 +6,19 @@ configs.setup {
   autopairs = {
     enable = true,
   },
+  autotag = {
+    enable = true,
+  },
   highlight = {
     enable = true, -- false will disable the whole extension
     disable = { "" }, -- list of language that will be disabled
     additional_vim_regex_highlighting = true,
-
   },
   indent = { enable = true, disable = { "yaml" } },
+  context_commentstring = {
+    enable = true,
+    enable_autocmd = false,
+  },
   rainbow = {
     enable = false,
     -- disable = { "jsx", "cpp" }, list of languages you want to disable the plugin for
