@@ -47,9 +47,10 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "windwp/nvim-ts-autotag" -- Autotag
   use "numToStr/Comment.nvim" -- Easily comment stuff
-  use 'kyazdani42/nvim-web-devicons' -- NvimTree Icons
-  use 'kyazdani42/nvim-tree.lua' -- NvimTree
-
+  use "kyazdani42/nvim-web-devicons" -- NvimTree Icons
+  use "kyazdani42/nvim-tree.lua" -- NvimTree
+  use "akinsho/bufferline.nvim" -- Bufferline
+  use "moll/vim-bbye"
 
   -- Colorschemes
   use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
@@ -86,7 +87,7 @@ return packer.startup(function(use)
   }
   use "p00f/nvim-ts-rainbow"
   use "nvim-treesitter/playground"
-  use 'JoosepAlviste/nvim-ts-context-commentstring'
+  use "JoosepAlviste/nvim-ts-context-commentstring"
 
   -- Git 
   use "lewis6991/gitsigns.nvim"
